@@ -1,0 +1,27 @@
+{
+  "name": "task-cli",
+  "version": "0.0.1",
+  "description": "Task CLI - tool for all of Your scripts in one place",
+  "bin": {
+    "task": "./bin/task-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukaszjakutowicz/task-cli.git"
+  },
+  "author": "Łukasz Jakutowicz <lukasz.jakutowicz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukaszjakutowicz/task-cli/issues"
+  },
+  "homepage": "https://github.com/lukaszjakutowicz/task-cli#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "yargs": "^10.0.3"
+  }
+}
