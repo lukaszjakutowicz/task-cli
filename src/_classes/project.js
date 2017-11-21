@@ -29,6 +29,22 @@ class Project {
   toString() {
     return `${this.name}(${this.code}) [src: ${this.src}]`;
   }
+
+  /**
+   * @function
+   * @name toJSON
+   * @description
+   * Function return project data in JSON format
+   * @return {object}
+   * @since 0.0.1
+   */
+  toJSON() {
+    return {
+      "code": this.code,
+      "name": this.name,
+      "src": this.src
+    };
+  }
 }
 
 module.exports = Project;

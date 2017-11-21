@@ -21,7 +21,20 @@
   "dependencies": {
     "chalk": "^2.3.0",
     "fs": "0.0.1-security",
+    "os": "^0.1.1",
     "path": "^0.12.7",
     "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.11.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-watch": "^4.3.11"
   }
 }
